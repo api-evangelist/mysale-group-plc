@@ -1,8 +1,25 @@
 aid: mysale-group-plc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mysale-group-plc.png
 name: MYSALE GROUP PLC
-description: 'MYSALE GROUP PLC is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'MySale Group PLC is a former AIM-listed online retailer that operated flash-sale and
+  outlet e-commerce marketplaces across Australia, New Zealand and Southeast Asia under brands including
+  MySale, OzSale, BuyInvite and Cocosa. The group was delisted and its corporate operations wound down;
+  the surviving consumer brand, OzSale (ozsale.com.au), now runs as a Shopify-hosted storefront. As of
+  this enrichment pass the company exposes no public developer program, API, SDK, or webhook surface: the
+  corporate domain mysalegroup.com no longer resolves and the remaining brand sites are consumer retail
+  storefronts only. This record is retained as a portfolio-lead profile surfaced from the Insight Partners
+  portfolio; it has no API artifacts to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/mysale-group-plc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- E-commerce
+- Retail
+- Marketplace
+- Flash Sales
+- Australia
+- No API
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.mysalegroup.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
