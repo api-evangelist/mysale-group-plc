@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/mysale-group-plc/integrations
+- https://n8n.io/integrations/mysale-group-plc/
+- https://composio.dev/toolkits/mysale-group-plc
+- https://monid.ai/tools/mysale-group-plc
+checked:
+- https://composio.dev/toolkits/mysale-group-plc
+- https://monid.ai/tools/mysale-group-plc
+- https://n8n.io/integrations/mysale-group-plc/
+- https://zapier.com/apps/mysale-group-plc/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
